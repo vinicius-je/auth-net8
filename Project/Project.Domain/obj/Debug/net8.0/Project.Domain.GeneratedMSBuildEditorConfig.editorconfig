@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Project.Domain
-build_property.ProjectDir = C:\Leds\tutorial auth2\Project\Project.Domain\
+build_property.ProjectDir = C:\Leds\tutoriais\auth-net8\Project\Project.Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

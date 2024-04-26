@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FNZTPGCGnwEkpzQoI5MZP/D7XcBF2dYaVONEadpDjDVt7ev9VwdDUjtmCoZY0flEk/dOYplbUPwqHYCAQNUk5A==",
+  "dgSpecHash": "wj1FO0/uornl1aeFKEVNcZbr6VnRlpFJhUl977GSTvu2dd71OBvQ8b+1V6viRphb7F3m9o3n2Io6wdr3IRD86Q==",
   "success": true,
-  "projectFilePath": "C:\\Leds\\tutorial auth2\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj",
+  "projectFilePath": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinic\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

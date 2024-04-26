@@ -8,6 +8,7 @@ namespace Project.Application.UseCases.Authentication
         {
             RuleFor(x => x.Email).NotEmpty().MinimumLength(3).MaximumLength(100);
             RuleFor(x => x.Password).NotEmpty().MinimumLength(3).MaximumLength(100);
+            RuleFor(x => x.RoleId).NotNull();
         }
     }
 }

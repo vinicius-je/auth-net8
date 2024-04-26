@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Project.Application.DTOs;
 using Project.Application.UseCases.DTOs;
 
 namespace Project.Application.UseCases.Authentication
@@ -6,6 +7,7 @@ namespace Project.Application.UseCases.Authentication
     public record Request
     (
         string Email,
-        string Password
+        string Password,
+        Guid RoleId
     ) : IRequest<Response>;
 }

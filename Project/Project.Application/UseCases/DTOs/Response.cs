@@ -1,14 +1,29 @@
-﻿using Project.Domain.Entities;
+﻿using Project.Application.DTOs;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Project.Application.UseCases.DTOs
 {
     public class Response
     {
-        public Guid Id { get; set; }
-        public string Email { get; set; } = string.Empty;
-        public string Password { get; set; } = string.Empty;
-        public List<Role> Roles { get; set; } = new();
-        public string Token { get; set; } = string.Empty;
-        public Guid? RefreshToken { get; set; }
+        public string Message { get; set; }
+        public int Status { get; set; }
+        public UserDTO? Data { get; set; }
+
+        public Response(string message, int status)
+        {
+            Message = message;
+            Status = status;
+        }
+
+        public Response(string message, int status, UserDTO? data)
+        {
+            Message = message;
+            Status = status;
+            Data = data;
+        }
     }
 }
