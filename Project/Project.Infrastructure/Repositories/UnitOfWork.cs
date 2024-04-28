@@ -1,10 +1,5 @@
 ﻿using Project.Domain.Interfaces;
 using Project.Infrastructure.Context;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Project.Infrastructure.Repositories
 {
@@ -12,7 +7,7 @@ namespace Project.Infrastructure.Repositories
     {
         private readonly AppDbContext _context;
 
-        public UnitOfWork(AppDbContext context) 
+        public UnitOfWork(AppDbContext context)
         {
             _context = context;
         }

@@ -1,0 +1,13 @@
+C:\Leds\tutoriais\auth-net8\Project\Project.Domain\bin\Debug\net8.0\Project.Domain.deps.json
+C:\Leds\tutoriais\auth-net8\Project\Project.Domain\bin\Debug\net8.0\Project.Domain.dll
+C:\Leds\tutoriais\auth-net8\Project\Project.Domain\bin\Debug\net8.0\Project.Domain.pdb
+C:\Leds\tutoriais\auth-net8\Project\Project.Domain\obj\Debug\net8.0\Project.Domain.csproj.AssemblyReference.cache
+C:\Leds\tutoriais\auth-net8\Project\Project.Domain\obj\Debug\net8.0\Project.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Leds\tutoriais\auth-net8\Project\Project.Domain\obj\Debug\net8.0\Project.Domain.AssemblyInfoInputs.cache
+C:\Leds\tutoriais\auth-net8\Project\Project.Domain\obj\Debug\net8.0\Project.Domain.AssemblyInfo.cs
+C:\Leds\tutoriais\auth-net8\Project\Project.Domain\obj\Debug\net8.0\Project.Domain.csproj.CoreCompileInputs.cache
+C:\Leds\tutoriais\auth-net8\Project\Project.Domain\obj\Debug\net8.0\Project.Domain.sourcelink.json
+C:\Leds\tutoriais\auth-net8\Project\Project.Domain\obj\Debug\net8.0\Project.Domain.dll
+C:\Leds\tutoriais\auth-net8\Project\Project.Domain\obj\Debug\net8.0\refint\Project.Domain.dll
+C:\Leds\tutoriais\auth-net8\Project\Project.Domain\obj\Debug\net8.0\Project.Domain.pdb
+C:\Leds\tutoriais\auth-net8\Project\Project.Domain\obj\Debug\net8.0\ref\Project.Domain.dll

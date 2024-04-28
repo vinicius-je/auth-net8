@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+  project.webapi:
+    image: ${DOCKER_REGISTRY-}projectwebapi
+    build:
+      context: .
+      dockerfile: Project.WebApi/Dockerfile
+    ports:
+      - "3001:8080"
+      - "3000:8081"
+
+  migrations:
+    container_name: service-migrations
+    image: service-migrations
+    build:
+      context: .
+      dockerfile: Project.WebApi/Dockerfile
+      target: migrations
+    depends_on:
+        - sqlserver
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server
+    container_name: sqlserver
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "1q2w3e4r@#$"
+    restart: unless-stopped

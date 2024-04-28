@@ -5,7 +5,7 @@
         public string Email { get; set; }
         public string Password { get; set; }
         public List<Role> Roles { get; set; } = new();
-        public Guid? RefreshToken { get; set; }
+        public Guid RefreshToken { get; set; } = Guid.NewGuid();
 
         public User(string email, string password)
         {
@@ -20,9 +20,9 @@
             Roles = newUser.Roles;
         }
 
-        public void UpdateRefreshToken(Guid? token)
+        public void GenerateRefreshToken()
         {
-            RefreshToken = token;
+            RefreshToken = Guid.NewGuid();
         }
 
         public void addRole(Role role)

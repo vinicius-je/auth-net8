@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Leds\\tutoriais\\auth-net8\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|c:\\leds\\tutoriais\\auth-net8\\project\\project.application\\usecases\\authentication\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\usecases\\authentication\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{179B447F-B09B-44F3-8B31-83F2282739B1}|Project.Domain\\Project.Domain.csproj|c:\\leds\\tutoriais\\auth-net8\\project\\project.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{179B447F-B09B-44F3-8B31-83F2282739B1}|Project.Domain\\Project.Domain.csproj|solutionrelative:project.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|c:\\leds\\tutoriais\\auth-net8\\project\\project.application\\usecases\\create\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\usecases\\create\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|c:\\leds\\tutoriais\\auth-net8\\project\\project.application\\usecases\\authentication\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\usecases\\authentication\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|c:\\leds\\tutoriais\\auth-net8\\project\\project.application\\usecases\\authentication\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\usecases\\authentication\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|c:\\leds\\tutoriais\\auth-net8\\project\\project.application\\services\\passwordhashingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\services\\passwordhashingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|c:\\leds\\tutoriais\\auth-net8\\project\\project.application\\configuration\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\configuration\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|c:\\leds\\tutoriais\\auth-net8\\project\\project.application\\usecases\\create\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\usecases\\create\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{821BFDBB-170D-45A0-AD49-D6A71CC6152F}|Project.WebApi\\Project.WebApi.csproj|c:\\leds\\tutoriais\\auth-net8\\project\\project.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{821BFDBB-170D-45A0-AD49-D6A71CC6152F}|Project.WebApi\\Project.WebApi.csproj|solutionrelative:project.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,92 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Validator.cs",
-              "DocumentMoniker": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\UseCases\\Authentication\\Validator.cs",
-              "RelativeDocumentMoniker": "Project.Application\\UseCases\\Authentication\\Validator.cs",
-              "ToolTip": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\UseCases\\Authentication\\Validator.cs",
-              "RelativeToolTip": "Project.Application\\UseCases\\Authentication\\Validator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Project.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Project.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA/wBYAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T13:01:02.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Request.cs",
-              "DocumentMoniker": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\UseCases\\Authentication\\Request.cs",
-              "RelativeDocumentMoniker": "Project.Application\\UseCases\\Authentication\\Request.cs",
-              "ToolTip": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\UseCases\\Authentication\\Request.cs",
-              "RelativeToolTip": "Project.Application\\UseCases\\Authentication\\Request.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:59:10.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\Configuration\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "Project.Application\\Configuration\\ServiceExtensions.cs",
-              "ToolTip": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\Configuration\\ServiceExtensions.cs",
-              "RelativeToolTip": "Project.Application\\Configuration\\ServiceExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:05:11.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PasswordHashingService.cs",
-              "DocumentMoniker": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\Services\\PasswordHashingService.cs",
-              "RelativeDocumentMoniker": "Project.Application\\Services\\PasswordHashingService.cs",
-              "ToolTip": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\Services\\PasswordHashingService.cs",
-              "RelativeToolTip": "Project.Application\\Services\\PasswordHashingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:02:28.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Handler.cs",
-              "DocumentMoniker": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\UseCases\\Authentication\\Handler.cs",
-              "RelativeDocumentMoniker": "Project.Application\\UseCases\\Authentication\\Handler.cs",
-              "ToolTip": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\UseCases\\Authentication\\Handler.cs",
-              "RelativeToolTip": "Project.Application\\UseCases\\Authentication\\Handler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T11:52:22.451Z",
+              "WhenOpened": "2024-04-28T21:17:23.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Handler.cs",
-              "DocumentMoniker": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\UseCases\\Create\\Handler.cs",
-              "RelativeDocumentMoniker": "Project.Application\\UseCases\\Create\\Handler.cs",
-              "ToolTip": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\UseCases\\Create\\Handler.cs",
-              "RelativeToolTip": "Project.Application\\UseCases\\Create\\Handler.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwB0AAAANAAAA",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.WebApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Project.WebApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.WebApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Project.WebApi\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T11:50:27.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Validator.cs",
-              "DocumentMoniker": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\UseCases\\Create\\Validator.cs",
-              "RelativeDocumentMoniker": "Project.Application\\UseCases\\Create\\Validator.cs",
-              "ToolTip": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\UseCases\\Create\\Validator.cs",
-              "RelativeToolTip": "Project.Application\\UseCases\\Create\\Validator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T11:50:20.101Z",
+              "WhenOpened": "2024-04-28T21:14:02.19Z",
               "EditorCaption": ""
             }
           ]

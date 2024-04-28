@@ -14,6 +14,8 @@ namespace Project.Infrastructure.EntitiesConfiguration
                 .HasColumnType("NVARCHAR")
                 .HasMaxLength(50)
                 .IsRequired(true);
+
+            builder.HasData(new Role("ADMIN"), new Role("USER"));
         }
     }
 }

@@ -9,5 +9,7 @@ namespace Project.Domain.Entities
         public DateTimeOffset DateCreated { get; set; }
         public DateTimeOffset? DateUpdated { get; set; }
         public DateTimeOffset? DateDeleted { get; set; }
+
+        protected EntityBase() => Id = Guid.NewGuid();
     }
 }

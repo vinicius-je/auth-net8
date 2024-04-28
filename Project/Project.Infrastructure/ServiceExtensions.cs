@@ -9,8 +9,7 @@ namespace Project.Infrastructure
 {
     public static class ServiceExtensions
     {
-        public static void ConfigurePersistenceApp(this IServiceCollection services,
-                                                IConfiguration configuration)
+        public static void ConfigurePersistenceApp(this IServiceCollection services, IConfiguration configuration)
         {
             var connectionString = configuration.GetConnectionString("SqlServer");
             IServiceCollection serviceCollection = services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(connectionString, x => x.MigrationsAssembly("Project.Infrastructure")), ServiceLifetime.Scoped);
