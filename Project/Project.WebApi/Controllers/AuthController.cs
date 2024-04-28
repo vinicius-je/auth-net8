@@ -1,7 +1,5 @@
-﻿using AutoMapper;
-using MediatR;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Project.Application.DTOs;
 using Project.Application.UseCases.Authentication;
 using Project.Application.UseCases.Create;
 using Project.Application.UseCases.RefreshToken;

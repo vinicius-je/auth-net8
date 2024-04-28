@@ -1,6 +1,4 @@
-﻿using AutoMapper;
-using MediatR;
-using Project.Application.DTOs;
+﻿using MediatR;
 using Project.Application.HandlerResponse;
 using Project.Application.Interfaces;
 using Project.Domain.Entities;
@@ -34,6 +32,20 @@ namespace Project.Application.UseCases.Create
                 if (role is null)
                 {
                     return new Response("Role not found", 404);
+                }
+            }
+            catch
+            {
+                return new Response("Internal Server Error", 500);
+            }
+
+            try
+            {
+                // Check if email is avaliable
+                bool isAvaliable = await _userRepository.AnyAsync(request.Email, cancellationToken);
+                if (isAvaliable)
+                {
+                    return new Response("Email already in use", 404);
                 }
             }
             catch
