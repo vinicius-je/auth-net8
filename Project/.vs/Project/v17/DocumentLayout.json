@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Leds\\tutoriais\\auth-net8\\Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{33986E7C-487C-4487-AD45-154FBF87719E}|docker-compose.dcproj|c:\\leds\\tutoriais\\auth-net8\\project\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{33986E7C-487C-4487-AD45-154FBF87719E}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{821BFDBB-170D-45A0-AD49-D6A71CC6152F}|Project.WebApi\\Project.WebApi.csproj|c:\\leds\\tutoriais\\auth-net8\\project\\project.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{821BFDBB-170D-45A0-AD49-D6A71CC6152F}|Project.WebApi\\Project.WebApi.csproj|solutionrelative:project.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|c:\\leds\\tutoriais\\auth-net8\\project\\project.application\\usecases\\create\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75544F36-38C1-4359-A599-06C2B8F24D88}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\usecases\\create\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CreateUserHandler.cs",
               "DocumentMoniker": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\UseCases\\Create\\CreateUserHandler.cs",
               "RelativeDocumentMoniker": "Project.Application\\UseCases\\Create\\CreateUserHandler.cs",
               "ToolTip": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.Application\\UseCases\\Create\\CreateUserHandler.cs",
               "RelativeToolTip": "Project.Application\\UseCases\\Create\\CreateUserHandler.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAkAAAAFAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAADwvzMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T21:56:57.349Z",
+              "WhenOpened": "2024-05-05T18:07:13.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Project.WebApi\\Program.cs",
+              "ToolTip": "C:\\Leds\\tutoriais\\auth-net8\\Project\\Project.WebApi\\Program.cs",
+              "RelativeToolTip": "Project.WebApi\\Program.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T17:41:51.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Leds\\tutoriais\\auth-net8\\Project\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Leds\\tutoriais\\auth-net8\\Project\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwB4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-05-05T17:37:59.588Z",
               "EditorCaption": ""
             }
           ]

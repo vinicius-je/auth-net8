@@ -9,9 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
-// Insert this shit to migrations run
+// Insert this to migrations run
 builder.Services.ConfigurePersistenceApp(builder.Configuration);
-// mediat
+// Mediator
 builder.Services.ConfigureApplicationApp();
 builder.Services.AddMvc()
                 .AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
@@ -50,7 +50,6 @@ builder.Services.AddSwaggerGen(options =>
     options.CustomSchemaIds(type => type.ToString());
 });
 
-//builder.Services.AddSwaggerGen();
 // Add CORS extension
 builder.Services.ConfigureCorsPolicy();
 

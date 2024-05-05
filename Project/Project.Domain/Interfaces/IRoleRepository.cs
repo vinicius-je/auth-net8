@@ -4,6 +4,6 @@ namespace Project.Domain.Interfaces
 {
     public interface IRoleRepository : IBaseRepository<Role>
     {
-        Task<Role> GetRoleByName(string name, CancellationToken cancelationToken);
+        Task<List<Role>> GetRoles(List<Guid> ids);
     }
 }

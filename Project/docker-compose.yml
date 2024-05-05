@@ -27,5 +27,5 @@ services:
       - "1433:1433"
     environment:
       ACCEPT_EULA: "Y"
-      MSSQL_SA_PASSWORD: "1q2w3e4r@#$"
+      MSSQL_SA_PASSWORD: "0tI52#fa@vkz"
     restart: unless-stopped

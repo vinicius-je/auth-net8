@@ -6,6 +6,6 @@ namespace Project.Application.UseCases.Create
     public record CreateUserRequest(
         string Email,
         string Password,
-        Guid RoleId
+        List<Guid> RoleIds
     ) : IRequest<Response>;
 }

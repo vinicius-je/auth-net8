@@ -1,4 +1,5 @@
-﻿namespace Project.Domain.Entities
+﻿
+namespace Project.Domain.Entities
 {
     public class Role : EntityBase
     {

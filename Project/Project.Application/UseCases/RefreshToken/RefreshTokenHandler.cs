@@ -22,7 +22,7 @@ namespace Project.Application.UseCases.RefreshToken
 
         public async Task<Response> Handle(RefreshTokenRequest request, CancellationToken cancellationToken)
         {
-            //Search user
+            // Search user
             User? user;
             try
             {
@@ -38,22 +38,20 @@ namespace Project.Application.UseCases.RefreshToken
                 return new Response("Internal Server Error", 500);
             }
 
-            //Update Refresh token
+            // Update Refresh token
             user.GenerateRefreshToken();
 
             try
             {
-                //Update user in database
-                _userRepository.Update(user);
+                // Commit the chages in database
+                await _unitOfWork.Commit(cancellationToken);
             }
             catch
             {
                 return new Response("Internal Server Error", 500);
             }
 
-            // Commit the chages in database
-            await _unitOfWork.Commit(cancellationToken);
-            //Mapper user to dto
+            // Mapper user to dto
             UserResponseDTO userDTO = _mapper.Map<UserResponseDTO>(user);
 
             return new Response("Token Refreshed", 200, userDTO);

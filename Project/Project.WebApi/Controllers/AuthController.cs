@@ -8,7 +8,7 @@ using Project.WebApi.Extensions;
 namespace Project.WebApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("auth")]
     public class AuthController : ControllerBase
     {
         private readonly IMediator _mediator;

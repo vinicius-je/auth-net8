@@ -17,14 +17,12 @@ namespace Project.Infrastructure.Repositories
         public Task<bool> AnyAsync(string email, CancellationToken cancelationToken)
         {
             return _context.Users
-                        .AsNoTracking()
                         .AnyAsync(x => x.Email == email, cancelationToken);
         }
 
         public Task<User?> GetUserByEmailAsync(string email, CancellationToken cancellationToken)
         {
             return _context.Users
-                        .AsNoTracking()
                         .Include(x => x.Roles)
                         .FirstOrDefaultAsync(x => x.Email == email, cancellationToken);
         }
@@ -32,7 +30,7 @@ namespace Project.Infrastructure.Repositories
         public Task<User?> GetUserByRefreshCode(Guid refreshToken, CancellationToken cancellationToken)
         {
             return _context.Users
-                        .AsNoTracking()
+                        .Include(x => x.Roles)
                         .FirstOrDefaultAsync(x => x.RefreshToken == refreshToken, cancellationToken: cancellationToken);
         }
     }

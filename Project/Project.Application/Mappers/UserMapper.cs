@@ -9,7 +9,6 @@ namespace Project.Application.Mappers
         public UserMapper()
         {
             CreateMap<User, UserResponseDTO>().ReverseMap();
-            CreateMap<User, UserInputDTO>().ReverseMap();
         }
     }
 }

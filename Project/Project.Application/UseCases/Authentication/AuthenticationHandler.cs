@@ -38,15 +38,23 @@ namespace Project.Application.UseCases.Authentication
                 return new Response("Internal Server Error", 500);
             }
 
-
             // Validate user password
             bool isVerified = _service.VerifyHashedPassword(user.Password, request.Password);
             if (!isVerified)
             {
                 return new Response("Password dont match", 404);
             }
-            // Commit the chages in database
-            await _unitOfWork.Commit(cancellationToken);
+
+            try
+            {
+                // Commit the chages in database
+                await _unitOfWork.Commit(cancellationToken);
+            }
+            catch
+            {
+                return new Response("Internal Server Error", 500);
+            }
+
             // Mapper user to DTO
             UserResponseDTO userDTO = _mapper.Map<UserResponseDTO>(user);
             return new Response("User authenticated", 200, userDTO);

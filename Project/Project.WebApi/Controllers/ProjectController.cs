@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Project.WebApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("project")]
     public class ProjectController : ControllerBase
     {
         [HttpGet("user")]

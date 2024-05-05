@@ -13,9 +13,9 @@ namespace Project.Infrastructure.Repositories
             _context = context;
         }
 
-        public Task<Role> GetRoleByName(string name, CancellationToken cancelationToken)
+        public async Task<List<Role>> GetRoles(List<Guid> ids)
         {
-            return _context.Roles.FirstOrDefaultAsync(x => x.Name == name, cancellationToken: cancelationToken);
+            return await _context.Roles.Where(x => ids.Contains(x.Id)).ToListAsync();
         }
     }
 }
