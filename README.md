@@ -46,4 +46,4 @@ Clean Architecture is a software design pattern that promotes maintainability, t
 - Docker
 - Azure Data Studio
 
-You can check the tutorial in this [[link](https://dev.to/vinicius_estevam/aspnet-8-authentication-and-authorization-3426/)]
+You can check the tutorial in this [link](https://dev.to/vinicius_estevam/aspnet-8-authentication-and-authorization-3426/)
